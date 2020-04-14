@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name" translatable="false">Laundrify</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="emoji">You haven"'"t placed any orders yet &#128564;</string>
+    <string name="confusedFace">&#128533;</string>
+    <string name="grinningFaceWithSmilingEyes">&#128513;</string>
+    <string name="winkingFace">&#128521;</string>
+    <string name="faceThrowingAKiss">&#128536;</string>
+    <string name="faceWithPleadingEyes">&#129402;</string>
+    <string name="placesKey">AIzaSyCDDTbp26Fo6-SkdArbGVyLVw5-eyQ4VQs</string>
+    <string-array name="lga">
+        <item>Loading...</item>
+    </string-array>
+    <string name="agree_terms_privacy">By continuing, you agree to our &lt;a href=http://www.google.com/terms>Terms of Use&lt;/a> and read the &lt;a href=http://www.bing.com/privacy>Privacy Policy&lt;/a></string>
+    <string name="wash_iron"><![CDATA[Wash & Iron]]></string>
+    <string name="title_activity_price">PriceActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="wash_iron_starch"><![CDATA[Wash, Iron & Starch]]></string>
+    <string name="pickManName"><![CDATA[Pick up & delivery man: OluwaSeun]]></string>
+
+
+    <!-- rave -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permissions_are_required_to_complete_payment">Rave Pay needs phone access in order to uniquely identify the devices associated with your account and ensure that unauthorized devices are not able to act on your behalf. Ravepay will never use or store your phone number or call history. </string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="permission_required_image">permission_required_image</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="account_number">Account number</string>
+    <string name="bank">Bank</string>
+    <string name="email_address">Email address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="amount">Amount</string>
+    <string name="pci_dss_compliant"><a href="https://www.pcisecuritystandards.org/pci_security/">PCI-DSS COMPLIANT</a></string>
+    <string name="pin">PIN</string>
+    <string name="cancel">CANCEL</string>
+    <string name="enter">ENTER</string>
+    <string name="choose_saved_card">CHOOSE SAVED CARD</string>
+    <string name="pay">PAY</string>
+    <string name="save_card">Save card</string>
+    <string name="otp">OTP</string>
+    <string name="enter_your_one_ntime_password_otp">Enter your one  time password (OTP)</string>
+    <string name="card_number">Card Number</string>
+    <string name="powered_by">by Flutterwave</string>
+    <string name="please_enter_your_card_pin_nto_continue_your_transaction">Please enter your card pin  to continue your transaction.</string>
+    <string name="otp_icon">otp icon</string>
+    <string name="cvc_cvv2">CVC/CVV2</string>
+    <string name="expiration">Valid Till (MM/YY)</string>
+    <string name="email">Email</string>
+    <string name="enter_your_billing_address_details">Enter your billing address details</string>
+    <string name="billing_zip_code">Zip code e.g. 928302</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="bvn">BVN</string>
+    <string name="vodafone_msg">
+        <![CDATA[
+        <b>Please follow the instruction below to get your voucher code</b>
+        <br>
+        <br>
+        <p>1. Dial <b>*110#</b> to generate your transaction voucher.</p>
+        <p>2. Select <b>OPTION 6</b> to generate the voucher.</p>
+        <p>3. Enter your PIN in next prompt.</p>
+        <p>4. Input the voucher generated in the voucher field below.</p>]]>
+    </string>
+
+    <string name="mtn_validate_instructions">
+       <![CDATA[
+        <b>Please follow the instruction below to complete your MTN transaction</b>
+        <br>
+        <br>
+        <p>1. Dial <b>*170#</b></p>
+        <p>2. Choose option: <b>7) Wallet</b> </p>
+        <p>3. Choose option: <b>3) My Approvals</b> </p>
+        <p>4. Enter your MOMO pin to retrieve your pending approval list </p>
+        <p>5. Choose a pending transaction </p>
+        <p>6. Choose <b>option 1<b> to approve </p>
+        <p>7. Tap button to continue </p>
+        ]]>
+    </string>
+
+    <string name="tigo_validate_instructions">
+        <![CDATA[
+        <b>Please follow the instruction below to complete your Tigo transaction</b>
+        <br>
+        <br>
+        <p>1. Dial <b>5015#</b> to approve your transaction.</p>
+        <p>2. Select the transaction to approve and click on send.</p>
+        <p>3. Select YES to confirm your payment.</p>
+        ]]>
+    </string>
+
+    <string name="ugx_validate_instructions">
+        <![CDATA[
+        <b>A push notification has been sent to your phone, please complete the transaction by entering your pin.</b>
+        ]]>
+    </string>
+    <string name="mtn">mtn</string>
+    <string name="tigo">tigo</string>
+    <string name="vodafone">vodafone</string>
+    <string name="fieldAmount">amount</string>
+    <string name="fieldPhone">phone</string>
+    <string name="fieldEmail">email</string>
+    <string name="fieldAccount">account</string>
+    <string name="fieldVoucher">voucher</string>
+    <string name="fieldNetwork">network</string>
+    <string name="fieldBVN">bvn</string>
+    <string name="fieldDOB">dob</string>
+    <string name="fieldBankCode">bankcode</string>
+    <string name="fieldCvv">cvv</string>
+    <string name="fieldCardExpiry">cardExpiry</string>
+    <string name="fieldcardNoStripped">cardNoStripped</string>
+    <string name="validAmountPrompt">Enter a valid amount</string>
+    <string name="validPhonePrompt">Enter a valid number</string>
+    <string name="validEmailPrompt">Enter a valid Email</string>
+    <string name="isInternetBanking">bankcode</string>
+    <string name="wait">Please wait...</string>
+    <string name="cancelPayment">CANCEL PAYMENT</string>
+    <string name="response">response</string>
+    <string name="charge">You will be charged a total of</string>
+    <string name="askToContinue">. Do you want to continue?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="noResponse">No response data was returned</string>
+    <string name="transactionError">An error occurred while retrieving transaction fee</string>
+    <string name="payWithBankAmountLimitPrompt">Bank payments made with this bank must be greater than 100 naira. Please select another bank or increase the amount you\'re paying and try again</string>
+    <string name="success">success</string>
+    <string name="invalidCharge">Invalid charge card response</string>
+    <string name="cardNoStripped">cardNoStripped</string>
+    <string name="validCvvPrompt">Enter a valid cvv</string>
+    <string name="validExpiryDatePrompt">Enter a valid expiry date</string>
+    <string name="validCreditCardPrompt">Enter a valid credit card number</string>
+    <string name="validVoucherPrompt">Enter a valid voucher code</string>
+    <string name="validNetworkPrompt">Select a network</string>
+    <string name="unknownAuth">Unknown Auth Model</string>
+    <string name="unknownResCode">Unknown charge response code</string>
+    <string name="invalidChargeCode">Invalid charge response code</string>
+    <string name="tokenNotFound">token not found</string>
+    <string name="expired">expired</string>
+    <string name="tokenExpired">Token expired</string>
+    <string name="no_authurl_was_returnedmsg">No authUrl was returned</string>
+    <string name="no_response_data_was_returnedmsg">No response data was returned</string>
+    <string name="unknownAuthmsg">Unknown Auth Model</string>
+    <string name="unknownResCodemsg">Unknown charge response code</string>
+    <string name="checkStatus">Check Status</string>
+    <string name="NO_ADD_CODE">204</string>
+    <string name="msg_token_fmt">"The message is ", %s</string>
+    <string name="channel_name">In app Notifications</string>
+    <string name="channel_description">This shows notifications for acceptance and decline of Orders in app</string>
+    <string-array name="gh_mobile_money_networks">
+        <item>Select network</item>
+        <item>MTN</item>
+        <item>Tigo</item>
+        <item>Vodafone</item>
+    </string-array>
+
+
+
+
+
+    <!--Titles-->
+    <string name="login_title">Login</string>
+    <string name="signup_title">Sign up</string>
+
+    <!--Welcome messages-->
+    <string name="splash_welcome_txt">Easiest way to\nfind the best product</string>
+    <string name="login_welcome_txt">Hello there !\nWelcome Back</string>
+    <string name="signup_welcome_txt">Hello there !\nWelcome to you</string>
+
+
+    <!--Button labels-->
+    <string name="login_btn_label">Login</string>
+    <string name="signup_btn_label">Signup</string>
+
+    <string name="login_label">" Login"</string>
+    <string name="signup_label">" Signup"</string>
+
+    <string name="login_fb_btn_label">"{faw-facebook-f}    Login with Facebook"</string>
+    <string name="signup_fb_btn_label">"{faw-facebook-f}    Signup with Facebook"</string>
+
+    <string name="get_started_btn_label">Get Started</string>
+
+    <!--Edit Text hints-->
+    <string name="email_address_hint">Email Address</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="password_hint">Password</string>
+
+
+    <!--Misc texts-->
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\’t have an account?</string>
+    <string name="have_account">Have an account?</string>
+    <string name="divider_or">OR</string>
+
+    <!--string name="app_name">ModernLogin</string>-->
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+</resources>

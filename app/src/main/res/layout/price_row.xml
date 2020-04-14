@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/priceBG"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/common_google_signin_btn_icon_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="@id/priceBG"
+        app:layout_constraintEnd_toEndOf="@id/priceBG"
+        app:layout_constraintStart_toStartOf="@id/priceBG"
+        app:layout_constraintTop_toTopOf="@id/priceBG" />
+
+
+    <TextView
+        android:id="@+id/priceDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/priceBG"
+        app:layout_constraintStart_toStartOf="@+id/priceBG"
+        tools:text="gfcjvjhv" />
+
+    <TextView
+        android:id="@+id/priceHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif-condensed"
+        tools:text="Shirts"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/priceDesc"
+        app:layout_constraintStart_toStartOf="@+id/priceBG" />
+
+    <TextView
+        android:id="@+id/pricePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        tools:text="₦00.00"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/priceBG" />
+
+    <TextView
+        android:id="@+id/priceBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="3dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/pricePrice"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        tools:text="₦00.00" />
+
+    <View
+        android:id="@+id/strikeThrough"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/common_google_signin_btn_text_light_pressed"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/pricePrice"
+        app:layout_constraintLeft_toLeftOf="@id/pricePrice"
+        app:layout_constraintRight_toRightOf="@id/pricePrice"
+        app:layout_constraintTop_toTopOf="@id/pricePrice"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

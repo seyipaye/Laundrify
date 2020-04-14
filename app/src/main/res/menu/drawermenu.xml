@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Profile Settings">
+        <menu>
+            <item
+                android:id="@+id/dspName"
+                android:checkable="false"
+                android:icon="@drawable/ic_person_outline_ash_24dp"
+                android:title="Change display name" />
+            <item
+                android:id="@+id/phnNumber"
+                android:checkable="false"
+                android:icon="@drawable/ic_call_ash_24dp"
+                android:title="Change phone number" />
+            <item
+                android:id="@+id/chgAddress"
+                android:checkable="false"
+                android:icon="@drawable/ic_edit_location_ash_24dp"
+                android:title="Change address" />
+            <item
+                android:id="@+id/chgPassword"
+                android:checkable="false"
+                android:icon="@drawable/ic_lock_outline_ash_24dp"
+                android:title="Change password" />
+        </menu>
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/referFriend"
+                android:checkable="false"
+                android:icon="@drawable/ic_share_ash_24dp"
+                android:title="Refer a friend" />
+            <item
+                android:id="@+id/rate"
+                android:checkable="false"
+                android:icon="@drawable/ic_star_border_ash_24dp"
+                android:title="Rate our app" />
+        </menu>
+    </item>
+
+    <item android:title="About us">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:checkable="false"
+                android:icon="@drawable/ic_chat_ash_24dp"
+                android:title="Chat with us" />
+            <item
+                android:id="@+id/terms"
+                android:checkable="false"
+                android:icon="@drawable/ic_insert_drive_file_ash_24dp"
+                android:title="Terms of service" />
+            <item
+                android:id="@+id/privacy"
+                android:checkable="false"
+                android:icon="@drawable/ic_verified_user_ash_24dp"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logOut"
+        android:checkable="false"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Logout" />
+</menu>

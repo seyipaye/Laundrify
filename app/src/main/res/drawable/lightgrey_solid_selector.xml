@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/common_google_signin_btn_text_light_default"/>
+    <item android:state_focused="true" android:drawable="@color/colorAccent" />
+    <item android:drawable="@drawable/lightgrey_solid" />
+</selector>
